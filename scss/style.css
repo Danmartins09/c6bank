@@ -1,0 +1,24 @@
+header {
+  display: -ms-grid;
+  display: grid;
+  grid-template: 4, 1fr;
+}
+
+header .logo {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+header .links {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+header .openAccount {
+  -ms-grid-column: 4;
+      grid-column-start: 4;
+  grid-column-end: 5;
+}
+/*# sourceMappingURL=style.css.map */

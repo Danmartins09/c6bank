@@ -1,0 +1,16 @@
+header {
+  display: grid;
+  grid-template: (4, 1fr);
+  .logo {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .links {
+    grid-column-start: 2;
+    grid-column-end: 3;    
+  }
+  .openAccount {
+    grid-column-start: 4;
+    grid-column-end: 5;    
+  }
+}
